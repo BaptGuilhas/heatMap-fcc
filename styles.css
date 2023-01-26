@@ -1,0 +1,49 @@
+
+#tooltip {
+    /* display: block;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.8em;
+    background: var(--var-lighted);
+    box-shadow: 1px 1px 1px;
+    border-radius: 2px;
+    pointer-events: none;
+    z-index: 3;
+    opacity: 0;
+    height: auto;
+    width: fit-content;
+    background-color: blanchedalmond;
+  }
+
+  
+  .tick, .label, .legendText {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  
+  .label {
+  font-size: 1em;
+}
+.tick {
+  font-size: 0.9em;
+}
+
+#legend {
+  z-index: 2;
+  position: absolute;
+  right : 6rem;
+  top : 10%;
+  background-color: lightyellow;
+  border-radius: 2;
+  box-shadow: 1px 1px 10px;
+  font-size: 1em;
+  color: lightgray
+
+}
+
+.legendText {
+  font-size: 1em;
+}
